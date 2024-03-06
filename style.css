@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+    background-color: #add7e6;
+    padding: 0;
+    height: 1950px;
+}
+.resume {
+    color: #fefefe;
+    width: 900px;
+    height: 1500px;
+    background-color: #fefefe;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+}
+#name{
+    top: 155px;
+    left: -20px;
+    position: absolute;
+    padding: 0;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+#profession {
+    position: absolute;
+    top: 205px;
+    left: -40px;
+    font-family: 'Roboto Mono';
+    font-weight: 300;
+    font-size: 22px;
+}
+#image {
+    border-radius: 100px;
+}
+.inside {
+    background-color: #003047;
+    width: 300px;
+    height: 1500px;
+}
+.Name-Image {
+    top: 50px;
+    left: 65px;
+    position: absolute;
+    width: 300px;
+}
+.bar {
+    border-radius: 20px;
+    height: 1px;
+    width: 250px;
+    background-color: #005178;
+    position: absolute;
+    left: 25px;
+}
+#bar1 {
+    top: 330px;
+}
+.contact {
+    position: absolute;
+    top: 320px;
+    left: 15px;
+    padding-top: 10px;
+}
+.contact ul li {
+    padding-top: 10px;
+}
+.contact ul {
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    left: -20px;
+}
+#contact-info {
+    letter-spacing: 1px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 500;
+}
+.icon-contact {
+    color: #03a9f4;
+}
+.contact-info {
+    padding-left: 4px;
+    display: inline;
+    font-family: 'Poppins';
+}
+#email {
+    font-size: 14px;
+}
+#bar2 {
+    top: 510px;
+}
+.hability {
+    position: absolute;
+    top: 505px;
+    left: 15px;
+    padding-top: 10px;
+}
+#hability-info {
+    letter-spacing: 1px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 500;
+}
+.icon-hability {
+    color: #03a9f4;
+}
+.hability-info {
+    padding-left: 4px;
+    display: inline;
+    font-family: 'Poppins';
+}
+.hability ul li {
+    padding-top: 8px;
+}
+.hability ul {
+    width: 300px;
+    position: absolute;
+    top: 60px;
+    left: -20px;
+}
+#bar3 { 
+    top: 710px;
+}
+#languages-info {
+    letter-spacing: 1px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    top: 710px;
+    padding-left: 15px;
+}
+.darkbar {
+    background-color: #071925;
+    height: 10px;
+    width: 240px;
+    left: 20px;
+}
+.clearbar {
+    background-color: #03a9f4;
+    height: 10px;
+    width: 200px;
+}
+.language-type {
+    display: inline;
+    font-family: 'Poppins';
+    font-size: 21px;
+}
+.languages ul {
+    width: 400px;
+    position: absolute;
+    top: 750px;
+    padding-left: 25px;
+}
+.languages li {
+    padding-top: 23px;
+    list-style:none;
+}
+#clearbar2 {
+    width: 75px;
+}
+#clearbar3 {
+    width: 30px;
+}
+.profile-tittle {
+    font-family: 'Poppins';
+   font-size: 30px; 
+   letter-spacing: 1.5px;
+   color: #003047;
+}
+.resume-profile {
+    position: absolute;
+    padding-left: 320px;
+    padding-top: 25px;
+}
+.profile-text {
+    color: #171717;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.resume-capacitation {
+    position: absolute;
+    padding-left: 320px;
+    padding-top: 275px;
+}
+.capacitation-tittle {
+    color: #03a9f4;
+    font-size: 17px;
+    font-family: 'Roboto Mono';
+}
+.capacitation-paragraph {
+    color: #171717;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.resume-capacitation ul {
+    padding-left: 40px;
+}
+.resume-hability {
+    position: absolute;
+    padding-left: 320px;
+    padding-top: 1125px;
+}
+.hability-name {
+    display: inline;
+    font-family: 'Poppins';
+    color: #808080;
+    font-weight: 600;
+}
+.hability-darkbar {
+    height: 8px;
+    width: 300px;
+    background-color: #bbbbbb;
+}
+.hability-clearbar {
+    height: 8px;
+    background-color: #03a9f4;
+}
+.resume-hability li {
+    padding-top: 17px;
+}
+#clearbar1 {
+    width: 250px;
+}
+#clearbar2 {
+    width: 200px;
+}
+#clearbar3 {
+    width: 120px;
+}
+#clearbar4 {
+    width: 50px;
+}
+.download-files {
+    position: absolute;
+    top: 1700px;
+    left: 600px;
+}
+.download-button {
+    display: inline-block;
+    font-family: 'Poppins';
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    height: 80px;
+    width: 250px;
+    background-color: none;
+    border: solid 4px;
+    border-color: white;
+    border-radius: 10px;
+}
+.download-icon {
+    position: relative;
+    top: 24px;
+    font-size: 30px;
+    left: 5px;
+}
+.download-text {
+    position: relative;
+    padding-left: 10px;
+    top: 20px;
+    font-size: 24px;
+}
+.downloadfile-buttons {
+    padding-left: 30px;
+}
+#button1 {
+    position: relative;
+    left: -30px;
+}
